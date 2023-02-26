@@ -1,0 +1,101 @@
+body{
+    background-color: ghostwhite;
+    margin: 5% 0 ;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    max-width: 40%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    margin: auto;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+h2{
+    font-family: 'Calibri';
+    font-weight: normal;
+    font-size: 53px;
+    margin: 35px auto auto auto;
+    letter-spacing: 2px;
+}
+
+#signin{
+    font-family: 'Calibri';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+form{
+    padding-left: 18px;
+    margin-top: 5%;
+}
+
+form .inputname{
+    font-family: 'Calibri';
+    font-weight: 520;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+form .input{
+    width: 93%;
+    height: 48px;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: ghostwhite;
+    border: none;
+    outline: none;
+}
+
+.forgot{
+    float: right;
+    margin-right: 5%;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.box{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#remember{
+    font-family: 'Calibri';
+    font-weight: 600;
+}
+
+#submit{
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 19px;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#submit:hover{
+    color: aqua;
+    background-color: blue;
+}
